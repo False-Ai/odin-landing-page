@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+html, body{
+    height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+  
+}
+
+.navbar{
+  padding: 20px;
+}
+
+.navbar, .header{
+  background-color: rgba(7, 8, 39);
+}
+
+.navbar .container{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.container ul{
+  display: flex;
+}
+
+li{
+  margin-left: 20px;
+}
+
+.information{
+  max-width: 30%;
+}
+
+.container{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.container button{
+  padding: 5px 30px;
+  margin: 5px;
+  color: white;
+}
+
+.button{
+  background-color: rgb(25, 60, 136);
+  border: none;
+  border-radius: 5px;
+}
+
+.Someinfo{
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.random{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.landscape{
+  width: 150px;
+  height: auto;  
+  border-radius: 10px;
+}
+
+.imgtext{
+  text-align: center;
+  max-width: 200px;
+}
+
+.quote{
+  margin-top: 100px;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+}
+
+.centerer{
+  width: 400px; 
+  height: auto;
+}
+
+.saying{
+  text-align: center;
+  gap: 10px;
+}
+
+.author{
+  text-align: end;
+  align-self: flex-end;
+  font-weight: 900;
+}
+
+.navbar .container{
+  flex: 1;
+}
+
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: rgb(12, 12, 70);
+  color: white;
+}
+
+.call{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: rgb(86, 137, 161);
+  margin: 5%;
+  border-radius: 5px;
+  color: white;
+}
+
+.caller{
+  font-weight: 900;
+}
+
+.called{
+  font-size: small;
+}
+
+.button2{
+  padding: 0px 12px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: rgb(86, 137, 161);
+}
+
+button:hover{
+  cursor:pointer;
+}
